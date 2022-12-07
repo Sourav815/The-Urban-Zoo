@@ -1,0 +1,174 @@
+body{
+    font-family: "Montserrat";
+    width: 100%;
+}
+#title{
+    background-color: #3B185F;
+    color: #fff;
+    border-radius:0 0 20px 20px;
+    /* height: 45rem; */
+}
+.shop-name{
+    text-shadow: 2px 2px;
+}
+li{
+    padding: 10px;
+    font-size: 140%;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+h1{
+    font-family: Montserrat-black;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 3.5rem;
+    font-weight: bold;
+    
+}
+.btn{
+    margin: 5% 3% 0% 0%;
+}
+
+.title-image{
+    margin: 1% 0% 0% 5%;
+    width: 40%;
+    height: 50%;
+    border-start-end-radius: 40px;
+    /* border-end-end-radius: 40px; */
+    border-bottom-left-radius: 40px;
+    box-shadow: 0 20px 30px 0 rgba(64, 5, 109, 0.2), 0 6px 20px 0 rgba(30, 16, 192, 0.19);
+    transform: rotate(15deg);
+    position: absolute;
+}
+
+/* features section */
+#features{
+    padding: 7% 15%;
+    position: relative;
+    /* z-index: 1; */
+}
+.col-lg-4{
+    padding: 5%;
+    text-align: center;
+}
+
+.logo{
+    font-size: 70px;
+    color: red;
+    margin-bottom: 1rem;
+}
+.logo:hover{
+    color: rgb(119, 106, 85);
+}
+h3{
+    font-family: "Montserrat-black";
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+/* testimonials */
+
+#testimonials{
+    /* padding: 5%; */
+    background-color: #533483;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    color: white;
+}
+#testimonial-content{
+    padding: 2%;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 134px;
+    margin: 20px;
+}
+.testimonial-image:hover{
+    transform: scale(140%);
+    transition-duration: 5s;
+}
+h2{
+    font-family: "Montserrat-bold";
+    font-weight: bolder;
+    font-size: 3rem;
+    
+}
+#press{
+    background-color: #F0CAA3;
+    text-align: center;
+    /* padding-bottom: 5%; */
+}
+.press-logo{
+    width: 15%;
+    margin: 3% 2% 8% 2%;
+}
+
+/* princing */
+
+#pricing{
+    text-align: center;
+    padding: 40px;
+}
+
+#cta{
+    height: 21rem;
+    width: 100%;
+    background-color:#495579;
+    text-align: center;
+    color: #fff;
+}
+#cta-title{
+    padding-top: 5rem;
+    font-size: 3rem;
+}
+#cta-btn1, cta-btn2{
+    margin: 15px 10px 0 0;
+    padding: 10px;
+}
+#footer{
+    padding: 3% 10%;
+    text-align: center;
+}
+.footer-icon{
+    margin: 15px;
+    font-size: 2rem;
+}
+.massege{
+    height: 28rem;
+    width: 30rem;
+    padding: 15px;
+    font-family: 'Secular One', sans-serif;
+    font-size: 20px;
+    opacity: 1;
+    border: 2px rgb(22, 14, 62) solid;
+    margin-left: 380px;
+}
+.icon
+{
+    color: #181715;
+    margin: 5px;
+}
+
+
+
+@media (max-width:880px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 15rem;
+        height: 27rem;
+        margin-top: 20px;
+        margin-right: 45px;
+    }
+}
